@@ -15,7 +15,7 @@ def main():
 
                 # Получаем открытый ключ (адрес)
                 public_key = keypair.pubkey()
-                print(f"Адрес кошелька: {public_key}")
+                print(f"{public_key}")
             except Exception as e:
                 print(f"Ошибка при обработке ключа: {private_key_str} - {e}")
 
